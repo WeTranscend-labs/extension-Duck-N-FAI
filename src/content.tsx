@@ -67,7 +67,7 @@ function ChatInterface() {
   return (
     <div
       className={cn(
-        "fixed right-4 top-1/2 -translate-y-1/2 z-[2147483647] font-['Press_Start_2P']",
+        "fixed right-0 top-1/2 -translate-y-1/2 z-[2147483647] font-['Press_Start_2P']",
         isDarkMode ? 'dark' : ''
       )}
     >
@@ -76,11 +76,11 @@ function ChatInterface() {
           onClick={() => setIsOpen(true)}
           onMouseEnter={() => setIsButtonHovered(true)}
           onMouseLeave={() => setIsButtonHovered(false)}
-          className="floating-button pixel-button bg-amber-400 hover:bg-amber-500 dark:bg-amber-500 dark:hover:bg-amber-600 w-16 h-16 border-4 border-black relative transition-all"
+          className="floating-button pixel-button bg-amber-400 hover:bg-amber-500 dark:bg-amber-500 dark:hover:bg-amber-600 w-8 h-8 border-4 border-black relative transition-all"
         >
           <MessageSquarePlus
             className={cn(
-              'w-6 h-6 text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform',
+              'w-[12px] h-[12px] text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform',
               isButtonHovered && 'scale-110'
             )}
           />
@@ -99,7 +99,7 @@ function ChatInterface() {
         >
           <div className="bg-amber-400 dark:bg-amber-500 p-4 border-b-4 border-black flex justify-between items-center">
             <h2 className="text-lg font-bold text-black tracking-wide">
-              DuckChain
+              DuckStrike
             </h2>
             <div className="flex gap-2">
               <button

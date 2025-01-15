@@ -1,11 +1,11 @@
-import axios from 'axios';
+import axios from "axios";
 
 interface GeminiResponse {
   message?: string;
   error?: string;
 }
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = "https://duckstrike-service.vercel.app";
 
 export const geminiService = {
   async sendMessage(message: string): Promise<string> {
@@ -15,7 +15,7 @@ export const geminiService = {
         { message },
         {
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
         }
       );
@@ -26,10 +26,10 @@ export const geminiService = {
         throw new Error(data.error);
       }
 
-      return data.message || '';
+      return data.message || "";
     } catch (error: any) {
-      console.error('Error sending message to Gemini:', error.message || error);
-      throw new Error(error.response?.data?.error || 'Something went wrong');
+      console.error("Error sending message to Gemini:", error.message || error);
+      throw new Error(error.response?.data?.error || "Something went wrong");
     }
   },
 };
