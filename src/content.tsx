@@ -40,7 +40,6 @@ function ChatInterface() {
 
     // Reset input
     setMessage('');
-    setShowSuggestions(false);
 
     try {
       setIsLoading(true);
