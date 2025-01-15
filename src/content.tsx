@@ -99,7 +99,7 @@ function ChatInterface() {
         >
           <div className="bg-amber-400 dark:bg-amber-500 p-4 border-b-4 border-black flex justify-between items-center">
             <h2 className="text-lg font-bold text-black tracking-wide">
-              DuckStrike
+              Duck'N'FAI
             </h2>
             <div className="flex gap-2">
               <button
