@@ -1,8 +1,8 @@
 
-# DuckStrike - Extension
+# Duck’N’FAI - Extension
 
 ## Project Overview
-The **DuckStrike Extension** is a browser-based extension designed to enhance the user experience of the DuckStrike platform. It enables quick wallet access, real-time notifications, and seamless cryptocurrency transactions directly within the browser. The extension integrates blockchain technology and AI features to allow users to interact efficiently with the DuckStrike platform without leaving their browser.
+The **Duck’N’FAI Extension** is a browser-based extension designed to enhance the user experience of the DuckStrike platform. It enables quick wallet access, real-time notifications, and seamless cryptocurrency transactions directly within the browser. The extension integrates blockchain technology and AI features to allow users to interact efficiently with the Duck’N’FAI platform without leaving their browser.
 
 ## Deployment
 To deploy this project locally, you can use the following steps to set up the environment and launch the application.
@@ -16,8 +16,8 @@ To deploy this project locally, you can use the following steps to set up the en
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/WeTranscend-labs/extension-duckstrike.git
-    cd extension-duckstrike
+    git clone https://github.com/WeTranscend-labs/extension-Duck-N-FAI.git
+    cd extension-Duck-N-FAI
     ```
 2. Install dependencies:
     ```bash
@@ -32,15 +32,15 @@ To deploy this project locally, you can use the following steps to set up the en
     -   For Chrome/Chromium-based browsers, navigate to `chrome://extensions/`.
     -   Enable **Developer Mode**.
     -   Click **Load unpacked** and select the `dist` folder inside your project.
-    -   The DuckStrike extension will now appear in the browser toolbar.
+    -   The Duck’N’FAI extension will now appear in the browser toolbar.
 5. Use the extension:
     
-    -   Click on the DuckStrike extension icon in the toolbar to interact with the platform directly from your browser.
+    -   Click on the Duck’N’FAI extension icon in the toolbar to interact with the platform directly from your browser.
 
 
 ## Technologies Used
 
-The **DuckStrike Extension** utilizes a range of modern technologies to ensure a seamless, fast, and optimized user experience. Below are the key technologies and libraries used in this project:
+The **Duck’N’FAI Extension** utilizes a range of modern technologies to ensure a seamless, fast, and optimized user experience. Below are the key technologies and libraries used in this project:
 
 -   **Vite**: A next-generation, fast build tool and development server that provides a lightning-fast development experience with features such as hot module replacement (HMR).
     
@@ -87,7 +87,7 @@ These technologies work together to deliver a powerful, scalable, and user-frien
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to DuckStrike, please fork the repository, make your changes, and submit a pull request. We appreciate your help!
+Contributions are welcome! If you'd like to contribute to Duck’N’FAI, please fork the repository, make your changes, and submit a pull request. We appreciate your help!
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
