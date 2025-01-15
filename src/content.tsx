@@ -1,12 +1,4 @@
-import {
-  CreditCard,
-  History,
-  MessageSquarePlus,
-  Send,
-  Sparkles,
-  Wallet,
-  X,
-} from 'lucide-react';
+import { MessageSquarePlus, Send, Sparkles, X } from 'lucide-react';
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { cn } from './lib/utils';
